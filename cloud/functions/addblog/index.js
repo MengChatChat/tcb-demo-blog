@@ -31,7 +31,7 @@ exports.main = async (event, context) => {
   
   try {
     // 数据库引用
-    const db = app.database();
+    const db = cloud.database();
     // 集合引用
     const collection = db.collection('blog');
     

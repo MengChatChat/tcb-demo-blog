@@ -8,15 +8,7 @@ git clone https://github.com/TencentCloudBase/tcb-demo-blog.git
 ```
 
 ### 配置小程序 id
-
-打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html) ，选择代码包，并填入 `appid`，或者手动在 `project.config.json` 配置文件中填入
-
-```javascript
-// project.config.json
-{
-    "appid": "",
-}
-```
+用[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)，打开上一步下载下来的代码仓库，填入小程序的 appid（使用云开发能力必须填写 appid）。
 
 ### 安装云函数依赖
 

@@ -1,7 +1,7 @@
 #  博客小程序案例
 
 
-## 手动部署
+## 预览 DEMO
 ### 下载或clone代码包
 ```javascript
 git clone https://github.com/TencentCloudBase/tcb-demo-blog.git

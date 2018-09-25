@@ -2,12 +2,14 @@
 
 
 ## 手动部署
-### 下载或clone代码仓库
+### 下载或clone代码包
 ```javascript
 git clone https://github.com/TencentCloudBase/tcb-demo-blog.git
 ```
 
 ### 配置小程序 id
+
+打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html) ，选择代码包，并填入 `appid`，或者手动在 `project.config.json` 配置文件中填入
 
 ```javascript
 // project.config.json
